@@ -7,7 +7,7 @@ import { BedrockRuntimeClient } from '@aws-sdk/client-bedrock-runtime'
 import { signInWithRedirect, getCurrentUser, signOut, fetchAuthSession } from 'aws-amplify/auth'
 import { Hub } from 'aws-amplify/utils'
 
-const defaultRegion = 'us-west-2'
+const defaultRegion = 'eu-central-1'
 
 export const useUserStore = defineStore('user', () => {
     const user = ref()
@@ -17,8 +17,13 @@ export const useUserStore = defineStore('user', () => {
         try {
             user.value = await getCurrentUser()
         } catch (e) {
-            signInWithRedirect().catch(() => null)
-            return
+            console.error(e);
+
+            try {
+                await signInWithRedirect()
+            } catch (error) {
+                console.error(e);
+            }
         }
     })
 

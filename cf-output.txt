@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------------------------------------
+Outputs                                                                                                                                                                                
+-------------------------------------------------------------------------------------------------------------
+Key                 UserPoolId                                                                                                                                                         
+Description         User Pool ID                                                                                                                                                       
+Value               eu-central-1_QeVlmWRh9                                                                                                                                             
+
+Key                 AuthenticatedRole                                                                                                                                                  
+Description         Authenticated Role                                                                                                                                                 
+Value               arn:aws:iam::863518413036:role/BackendlessBedrockGPT-UserAuthenticatedRole-uEqHnm4GDR9o                                                                            
+
+Key                 CDNUrl                                                                                                                                                             
+Description         CDN URL                                                                                                                                                            
+Value               d33wh8sbpcslxo.cloudfront.net                                                                                                                                      
+
+Key                 AuthUrl                                                                                                                                                            
+Description         Auth URL                                                                                                                                                           
+Value               02ea97a9b067.auth.eu-central-1.amazoncognito.com                                                                                                                   
+
+Key                 AppClient                                                                                                                                                          
+Description         App Client                                                                                                                                                         
+Value               3kdnreppiuhshp5bciqguosnel                                                                                                                                         
+
+Key                 IdentityPoolId                                                                                                                                                     
+Description         Identity Pool ID                                                                                                                                                   
+Value               eu-central-1:02cb4187-3034-4d9b-8092-640fddcde656  

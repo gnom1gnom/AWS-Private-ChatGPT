@@ -9,16 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/ui-vue": "^4.2.11",
-    "@aws-sdk/client-bedrock": "^3.634.0",
-    "@aws-sdk/client-bedrock-runtime": "^3.632.0",
-    "aws-amplify": "^6.5.1",
-    "pinia": "^2.1.7",
-    "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "@aws-amplify/ui-vue": "^4.2.19",
+    "@aws-sdk/client-bedrock": "^3.662.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.663.0",
+    "aws-amplify": "^6.6.3",
+    "pinia": "^2.2.4",
+    "vue": "^3.5.10",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.1"
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8"
   }
 }
